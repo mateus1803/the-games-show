@@ -1,0 +1,360 @@
+
+
+/*Header NavBar*/
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body {
+	font-family: "Helvetica Neue",sans-serif;
+	font-weight: lighter;
+}
+
+header {
+	width: 100%;
+	height: 94px;
+	
+	background: url/*(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg)*/ no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.content {
+	width: 94%;
+	margin: 0em auto;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.logo {
+	line-height: 60px;
+	position: fixed;
+	float: left;
+	margin: 16px 46px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+nav {
+	position: fixed ;
+	width: 100%;
+	line-height: 60px;
+}
+
+nav ul {
+	line-height: 60px;
+	list-style: none;
+	background: rgba(0, 0, 0, 0);
+	overflow: hidden;
+	color: #fff;
+	padding: 0;
+	text-align: right;
+	margin: 0;
+	padding-right: 40px;
+	transition: 1s;
+}
+
+nav.black ul {
+	background: #000;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 16px 40px;;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+.menu-icon {
+	line-height: 60px;
+	width: 100%;
+	background: #000;
+	text-align: right;
+	box-sizing: border-box;
+	padding: 15px 24px;
+	cursor: pointer;
+	color: #fff;
+	display: none;
+}
+
+@media(max-width: 786px) {
+
+	.logo {
+		  position: fixed;
+		  top: 0;
+		  margin-top: 16px;
+	}
+
+	nav ul {
+		  max-height: 0px;
+		  background: #000;
+	}
+
+	nav.black ul {
+		  background: #000;
+	}
+
+	.showing {
+		  max-height: 34em;
+	}
+
+	nav ul li {
+		  box-sizing: border-box;
+		  width: 100%;
+		  padding: 24px;
+		  text-align: center;
+	}
+
+	.menu-icon {
+		  display: block;
+	}
+
+}
+/**/
+
+
+
+.bg-white{
+	background-color: rgb(231, 231, 231);
+}
+
+body{
+	 background-image:url(https://acrediteounao.com/wp-content/uploads/2017/01/resident-evil-wallpaper-zombie-images-1920x1080.jpg);    
+	                            /*rgb(0, 102, 255)linear-gradient(to bottom, Black, white); */
+}
+.txt-oficial{
+	color:#ffffff !important;
+	
+}
+.bg-oficial{
+	background-color: #020101;
+	
+}
+
+.paragrafo{
+	background-color: white;
+	background-color: rgba(0, 0, 0, 0.37);
+}
+.nav-link{
+	font-size: 110%;
+}
+/*nav{
+    border-bottom:solid 0.1px;
+	color: #ff00b3;
+}*/
+
+.active{
+    color:#ed1f26 !important ;
+    font-weight: bold;
+}
+
+.baixar{
+	color: yellow !important;
+	font-weight: bold;
+}
+
+.input {
+	width: 70%;
+	outline: none;
+	border: solid 1.5px #ccc;
+	border-radius: 1em;
+	padding: 5px 10px 5px 10px;
+	text-align: left;
+	margin: 0 0 10px 0;
+	font-size: 1.1em;
+	color: #000;
+    background-color: transparent !important;
+    width: 10%
+}
+
+input:-moz-placeholder {
+	color: #000;
+	opacity: 0.3;
+    text-transform: none;
+    width: 10%
+}
+
+
+:disabled{
+    color: #fff;
+    background-color: #ff0000 !important;
+    opacity: .5;
+    border-color: #000;
+}
+
+
+
+
+
+
+
+.click-here:hover {
+	opacity: .8;
+}
+
+#botao{ text-align: center }
+.botaoEnviar{
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size: 18px;
+}
+
+
+.bt {
+	text-align: center !important;
+	border:1px solid #25692A;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:13px;
+	padding:6px 10px;
+	text-decoration:none;
+	} 
+	
+	.bt-vd {
+	border-color:#68b465;
+	background:linear-gradient(to bottom, #abd5aa 5%, #68b465 100%);
+	box-shadow:inset 0px 1px 0px 0px #e3f1e3;
+	color:#fff;
+	text-shadow:0px 1px 0px #528009;
+	}
+	
+	.bt-lj {
+	border-color:#eb9b48;
+	background:linear-gradient(to bottom, #f7d6b3 5%, #eb9b48 100%);
+	box-shadow:inset 0px 1px 0px 0px #fdf7f0;
+	color:#333;
+	text-shadow:0px 1px 0px #ffee66;
+	}
+	
+	.bt-az {
+	border-color:#46a7f5;
+	background:linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
+	box-shadow:inset 0px 1px 0px 0px #d7ecfd;
+	color:#fff;
+	text-shadow:0px 1px 0px #528009;  
+	}
+	
+	.bt-vm {
+	border-color:#f61f0e;
+	background:linear-gradient(to bottom, #fca8a1 5%, #f61f0e 100%);
+	box-shadow:inset 0px 1px 0px 0px #fff4f3;
+	color:#fff;
+	text-shadow:0px 1px 0px #528009; 
+	}
+	
+	.bt-vd:hover {
+	background:linear-gradient(to bottom, #68b465 5%, #abd5aa 100%);
+	}
+	
+	.bt-lj:hover {
+	background:linear-gradient(to bottom, #eb9b48 5%, #f7d6b3 100%);
+	}
+	
+	.bt-az:hover {
+	background:linear-gradient(to bottom, #46a7f5 5%, #86c6f8 100%);
+	}
+	
+	.bt-vm:hover {
+	background:linear-gradient(to bottom, #f61f0e 5%, #fca8a1 100%);
+	}
+	
+	.bt:active {
+	position:relative;
+	top:2px;
+}
+
+
+
+
+
+
+/*contato*/
+
+body {
+    padding: 0;
+    margin: 0;
+}
+ 
+form {
+	
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+
+	max-width: 500px;
+	justify-content: center;
+}
+ 
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #66FFFF;
+    text-shadow: 5px 5px 5px black;
+}
+ 
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    
+    border: 1px solid;
+}
+ 
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #FFFF00;
+    background-color: #66FFFF;
+    color: black;
+    font-weight: bold;
+}
+ 
+.submit input {
+    background-color: #66FFFF;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+ 
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+ 
+form label {
+    margin-left: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.fomula{
+	text-align: center !important;
+}
+
+.contato{
+	justify-content: center;
+}
+
+
+/* tela de login*/
